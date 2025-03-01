@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0e9e9;
+  }
+  .container {
+    display: flex;
+    max-width: 900px;
+    margin: 50px auto;
+    background: rgb(178, 175, 175);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  .sidebar {
+    width: 30%;
+    background: #343333;
+    color: rgb(255, 243, 243);
+    padding: 20px;
+    border-radius: 10px 0 0 10px;
+  }
+  .sidebar .avatar {
+    width: 100%;
+    border-radius: 10px;
+  }
+  .sidebar-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    border-bottom: 2px solid rgb(32, 31, 31);
+    padding-bottom: 5px;
+  }
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  .sidebar ul li {
+    padding: 5px 0;
+  }
+  .main-content {
+    width: 70%;
+    padding: 20px;
+  }
+  .main-content h1 {
+    color: #090909;
+    margin-bottom: 5px;
+  }
+  .position {
+    font-style: italic;
+    color: #7f8c8d;
+  }
+  .contact-info p {
+    margin: 5px 0;
+  }
+  h2 {
+    background: #0b0b0b;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  .experience {
+    margin-top: 10px;
+    padding: 10px;
+    border-left: 4px solid #0f1112;
+    background: #ecf0f1;
+    border-radius: 5px;
+  }
+  .date {
+    font-style: italic;
+    color: #7f8c8d;
+  }
